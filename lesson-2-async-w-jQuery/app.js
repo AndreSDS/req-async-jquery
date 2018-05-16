@@ -21,7 +21,7 @@
       }).done(addImage);
 
       $.ajax({
-        url: `http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=980b1f6416fc4b2dbe1e9c317750d041`
+        url: `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=980b1f6416fc4b2dbe1e9c317750d041`
       }).done(addArticles);
 
       function addImage(images) {
